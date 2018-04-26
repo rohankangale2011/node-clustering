@@ -18,10 +18,14 @@ Node.js runs on a single thread, resulting to be faster in most of the cases. Al
 * [Node] - Server running on node
 * [Express] - Nodejs framework for interacting with request/response from the web/front-end
 * [cluster] - Node module <strong>cluster</strong> for implementing clustering in the node application
+* [siege] - Node module for the performance testing of the application
+
+Once the application is up and running, it's time to check the benchmark of the application. Use <strong>npm run siege</strong> for getting the performance output.
 
 
 ### Result
 Below is the result obtained by running application with and without clustering:
+
 <strong>without clustering</strong>
     
     > node@1.0.0 siege D:\rohan\node
@@ -60,6 +64,9 @@ Below is the result obtained by running application with and without clustering:
 
 
 You can gather more information about node clustering from <a href="https://nodejs.org/api/cluster.html">Here</a>.
+
+
+<strong>Note:</strong> You might see some error's while running the <strong>npm run siege</strong> command. In order to resolve those, you need to stop your nodejs server(if it is running), as siege will be using the same port for the performance testing.
 
 
 
