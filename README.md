@@ -19,6 +19,8 @@ Node.js runs on a single thread, resulting to be faster in most of the cases. Al
 * [Express] - Nodejs framework for interacting with request/response from the web/front-end
 * [cluster] - Node module <strong>cluster</strong> for implementing clustering in the node application
 
+You can gather more information about node clustering from <a href="https://nodejs.org/api/cluster.html">Here</a>.
+
 
 
 
