@@ -7,7 +7,7 @@ Run the following commands once you clone the repo:
     npm install
     npm start
     
-<i>Make sure that all the dependencies are installed and after running <b>npm start</d>, you see a console saying "Listening on port 3002". You can change the port as per your convenience.</i>
+<i>Make sure that all the dependencies are installed and after running <b>npm start</b>, you see a console saying "Listening on port 3002". You can change the port as per your convenience.</i>
 
 
 ### Description
@@ -15,9 +15,9 @@ Node.js runs on a single thread, resulting to be faster in most of the cases. Al
 
 
 ### Features
-* [Node]: Server running on node
-* [Express]: Nodejs framework for interacting with request/response from the web/front-end
-* [cluster]: Node module <strong>cluster</strong> for implementing clustering in the node application
+* [Node] - Server running on node
+* [Express] - Nodejs framework for interacting with request/response from the web/front-end
+* [cluster] - Node module <strong>cluster</strong> for implementing clustering in the node application
 
 
 
