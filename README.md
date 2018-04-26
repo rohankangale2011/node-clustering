@@ -7,6 +7,4 @@ Node.js runs on a single thread, resulting to be faster in most of the cases. Al
 ### Installation
 Run the following commands once you clone the repo
 
-```sh
-npm install
-npm start
+
