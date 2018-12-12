@@ -10,7 +10,12 @@ router.get("/get", function(req, res) {
 });
 
 router.post("/webhook", function(req, res) {
-  res.json({success: true, message: 'Webhook success'});
+  var respObj = {
+    fulfillmentText: 'Default resp from webhook',
+    fulfillmentMessages: [{ "text": { "text": [0,2,4] }}],
+    source: ""
+  };
+  res.json(respObj);
 });
 
 module.exports = router;
