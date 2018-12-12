@@ -23,7 +23,7 @@ router.post("/webhook", function(req, res) {
         "imageUrl": "https://assistant.google.com/static/images/molecule/Molecule-Formation-stop.png",
         "subtitle": "Card Subtitle",
         "title": "Card Title",
-        "type": 1
+        "type": 4
       }
     }],
     source: ""
