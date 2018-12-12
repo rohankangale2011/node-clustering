@@ -12,7 +12,20 @@ router.get("/get", function(req, res) {
 router.post("/webhook", function(req, res) {
   var respObj = {
     fulfillmentText: 'Default resp from webhook',
-    fulfillmentMessages: [{ "text": { "text": [0,2,4] }}],
+    fulfillmentMessages: [{ "text": { "messages": [
+      {
+        "buttons": [
+          {
+            "postback": "Card Link URL or text",
+            "text": "Card Link Title"
+          }
+        ],
+        "imageUrl": "http://urltoimage.com",
+        "subtitle": "Card Subtitle",
+        "title": "Card Title",
+        "type": 1
+      }
+    ] }}],
     source: ""
   };
   res.json(respObj);
