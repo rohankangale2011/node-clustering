@@ -5,7 +5,7 @@ var cluster = require("cluster");
 
 function common() {
   app.use("/", routes);
-  app.listen(3002, function() {
+  app.listen(process.env.PORT || 3006, function() {
     console.log("Listening on port 3002");
   });
 }
