@@ -20,7 +20,7 @@ router.post("/webhook", function(req, res) {
             "text": "Card Link Title"
           }
         ],
-        "imageUrl": "http://urltoimage.com",
+        "imageUrl": "https://assistant.google.com/static/images/molecule/Molecule-Formation-stop.png",
         "subtitle": "Card Subtitle",
         "title": "Card Title",
         "type": 1
