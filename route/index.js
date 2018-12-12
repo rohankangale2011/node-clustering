@@ -12,7 +12,7 @@ router.get("/get", function(req, res) {
 router.post("/webhook", function(req, res) {
   var respObj = {
     fulfillmentText: 'Default resp from webhook',
-    fulfillmentMessages: [{ "text": { "messages": [
+    fulfillmentMessages: [{ "messages": [
       {
         "buttons": [
           {
@@ -25,7 +25,7 @@ router.post("/webhook", function(req, res) {
         "title": "Card Title",
         "type": 1
       }
-    ] }}],
+    ] }],
     source: ""
   };
   res.json(respObj);
