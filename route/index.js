@@ -10,7 +10,7 @@ router.get("/get", function(req, res) {
 });
 
 router.post("/webhook", function(req, res) {
-  res.send("Calling get API");
+  res.json({success: true, message: 'Webhook success'});
 });
 
 module.exports = router;
